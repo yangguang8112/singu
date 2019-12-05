@@ -1,0 +1,6 @@
+Bootstrap: localimage
+From: /root/singu/bwaOrigin.sif
+Stage: build
+
+%runscript
+	/usr/local/bwa-0.7.16/bwa $*
